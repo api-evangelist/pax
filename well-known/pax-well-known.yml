@@ -1,0 +1,33 @@
+generated: '2026-07-20'
+method: searched
+source: live probes of /.well-known/ on Pax hosts
+note: >-
+  No /.well-known/ discovery documents are published. The marketing host
+  (paxai.com) sits behind Cloudflare bot protection; the API host
+  (api.paxai.com) is a locked-down JSON service exposing only /health.
+  Every probed path returned 404. Empty is a valid, expected result.
+hosts:
+- host: https://paxai.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://api.paxai.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404

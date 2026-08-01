@@ -1,0 +1,19 @@
+# Pax
+
+> Pax (Pax AI) is a San Francisco-based AI company that automates U.S. duty drawback claims — helping importers, retailers, and manufacturers reclaim overpaid tariffs and import duties. It positions itself as the "AI Broker for Tariff Refunds" / "TurboTax for import duty rebate," automating data extraction, transaction matching, refund calculation, and electronic claim submission to U.S. Customs and Border Protection.
+
+This is an API Evangelist network profile. At enrichment time Pax exposes a live but locked-down JSON API host and no public OpenAPI, reference documentation, SDKs, or developer program.
+
+## Company
+- Website: https://paxai.com/
+- Blog: https://paxai.com/blog
+- Sector: Artificial Intelligence, Trade Finance, Customs, Duty Drawback
+- Headquarters: San Francisco, CA, USA
+- Backers: Y Combinator, Initialized Capital, General Catalyst, Flexport, Soma Capital, Basis Set Ventures
+
+## APIs
+- Pax API (host): https://api.paxai.com — publicly reachable health endpoint at https://api.paxai.com/health; no public specification or docs discovered.
+
+## Artifacts
+- Domain security posture: security/pax-domain-security.yml
+- Well-known discovery probe: well-known/pax-well-known.yml
